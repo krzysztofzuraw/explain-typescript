@@ -4,8 +4,8 @@
   "main": "n/a",
   "description": "Krzysztof Żuraw blog",
   "scripts": {
-    "develop": "gatsby develop --verbose",
-    "type-check": "tsc",
+    "dev": "gatsby develop",
+    "tsc": "tsc",
     "lint": "tslint --project .",
     "generate": "graphql-codegen --overwrite",
     "reinstall": "rimraf node_modules && npm install"
@@ -26,6 +26,7 @@
     "gatsby-plugin-google-analytics": "2.1.1",
     "gatsby-plugin-manifest": "2.2.0",
     "gatsby-plugin-offline": "2.2.0",
+    "gatsby-plugin-postcss": "^2.1.2",
     "gatsby-plugin-react-helmet": "3.1.0",
     "gatsby-plugin-sharp": "2.1.5",
     "gatsby-plugin-sitemap": "2.1.0",
@@ -57,6 +58,7 @@
     "husky": "2.4.1",
     "prettier": "1.18.2",
     "rimraf": "2.6.3",
+    "tailwindcss": "^1.0.5",
     "tslint": "5.18.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-react-a11y": "1.0.0",

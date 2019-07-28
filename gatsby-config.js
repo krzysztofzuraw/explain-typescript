@@ -9,13 +9,14 @@ module.exports = {
   plugins: [
     'gatsby-plugin-typescript',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-postcss',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/glossary`,
+        path: `${__dirname}/content/glossary`,
         name: 'glossary',
       },
     },

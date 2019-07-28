@@ -8,7 +8,9 @@
     "tsc": "tsc",
     "lint": "tslint --project .",
     "generate": "graphql-codegen --overwrite",
-    "reinstall": "rimraf node_modules && npm install"
+    "reinstall": "rimraf node_modules && npm install",
+    "build": "gatsby build",
+    "now-build": "npm run build"
   },
   "keywords": [
     "blog",

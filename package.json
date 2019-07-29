@@ -1,8 +1,8 @@
 {
-  "name": "blog",
+  "name": "explain-typescript",
   "version": "1.0.0",
   "main": "n/a",
-  "description": "Krzysztof Żuraw blog",
+  "description": "Explain TypeScript",
   "scripts": {
     "dev": "gatsby develop",
     "tsc": "tsc",

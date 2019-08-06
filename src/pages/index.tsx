@@ -13,7 +13,10 @@ const IndexPage: React.FunctionComponent<Props> = ({ data }) => {
   return (
     <Layout>
       {entries.map(entry => (
-        <div key={entry.node.id} className="mb-5 flex justify-center items-center">
+        <div
+          key={entry.node.id}
+          className="mb-5 flex flex-wrap md:flex-no-wrap justify-start md:justify-center items-center"
+        >
           <Link className="text-xl font-medium text-blue-600 w-1/4" to={entry.node!.fields!.slug!}>
             {entry.node.frontmatter!.title}
           </Link>

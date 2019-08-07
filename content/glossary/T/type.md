@@ -24,4 +24,16 @@ type Computed = {
 };
 ```
 
+You can use type in `conditional types`:
+
+```ts
+type Num = 'number';
+type Str = 'string';
+
+type TypeOfValue<T> = T extends string ? Str : Num;
+
+type value = TypeOfValue<'42'>; // 'string'
+type value2 = TypeOfValue<42>; // 'number'
+```
+
 [^1]: [Typescript interface vs type](https://pawelgrzybek.com/typescript-interface-vs-type/)

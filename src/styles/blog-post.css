@@ -1,0 +1,7 @@
+h2 {
+  @apply text-xl font-medium mt-6 mb-2;
+}
+
+a {
+  @apply font-light text-blue-600;
+}

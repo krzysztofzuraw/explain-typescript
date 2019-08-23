@@ -3,6 +3,7 @@ import * as React from 'react';
 
 import { GlossaryEntryBySlugQuery } from 'typings/graphql';
 import { Layout } from '../components';
+import '../styles/blog-post.css';
 import '../styles/main.css';
 
 interface Props {
